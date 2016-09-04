@@ -16,7 +16,17 @@ public class javalesson2
 
             int numEnteredTimes2 = numberEntered + numberEntered;
 
-            System.out.print(numberEntered +"+"+ numberEntered +"="+ numEnteredTimes2);
+            System.out.println(numberEntered +"+"+ numberEntered +"="+ numEnteredTimes2);
+
+            numberEntered +=2;
+            numberEntered -=2;
+            numberEntered ++;
+
+
+            int numberABS = Math.abs(numberEntered);
+            System.out.println(numberABS);
+            int whichIsBigger = Math.max(5,7);
+            System.out.println(whichIsBigger);
         } else {
 
             System.out.print("Type a number stupid ");
