@@ -13,6 +13,13 @@ public class javalesson2
             int numberEntered = userInput.nextInt();
 
             System.out.println("you entered " + numberEntered   );
+
+            int numEnteredTimes2 = numberEntered + numberEntered;
+
+            System.out.print(numberEntered +"+"+ numberEntered +"="+ numEnteredTimes2);
+        } else {
+
+            System.out.print("Type a number stupid ");
         }
     }
 }
