@@ -31,6 +31,9 @@ public class HelloWorld {
         System.out.println(addStrings);
         String byteString = Byte.toString(bigByte);
 
+        double aDoubleValue = 3.1444545;
+        int doubleToInt = (int) aDoubleValue;
+
 
     }
 }
