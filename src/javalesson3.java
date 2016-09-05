@@ -13,5 +13,24 @@ public class javalesson3 {
             System.out.println("the random number is greater than 25");
         }
         System.out.println(randomNumber);
+
+        int valueOne = 1;
+
+        int valueTwo = 2;
+
+        int biggestValue = (valueOne > valueTwo ? valueOne : valueTwo);
+
+        System.out.println(biggestValue);
+
+        char theGrade = 'B';
+
+        switch (theGrade)
+        {
+            case 'A':
+                System.out.println("Great Job");
+                break;
+            case 'B':
+                System.out.println("Okay....");
+        }
     }
 }
