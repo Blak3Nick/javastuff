@@ -46,6 +46,11 @@ public class JavaLessonFour {
 
         int h = 1;
 
+//        do
+//        {
+//            // executes once before checking the while parameter
+//        }
+
         while (contYorN.equalsIgnoreCase("y"))
         {
             System.out.println(h);
