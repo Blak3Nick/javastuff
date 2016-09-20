@@ -35,8 +35,27 @@ public class Monster {
             alive= false;
         }
     }
-    public void setHealth(double decrease)
+    public void setHealth(double decreaseHealth)
+    {
+        int intDecreaseHealth = (int) decreaseHealth;
+        health = health - intDecreaseHealth;
+        if (health<=0)
+        {
+            alive= false;
+        }
+
+    }
+    public Monster(int newHealth, int newAttack, int newMovement)
+    {
+        health = newHealth;
+        attack = newAttack;
+        movement = newMovement;
+
+    }
+//Default Constructor
+    public Monster()
     {
 
     }
+
 }

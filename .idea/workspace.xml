@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc0a305a-d406-4e3b-9de2-e81a860f36b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Monster.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Monster.java" afterPath="$PROJECT_DIR$/src/Monster.java" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="804">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
               <folding>
                 <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
@@ -771,7 +771,7 @@
       <workItem from="1473450939629" duration="1305000" />
       <workItem from="1473455668149" duration="1577000" />
       <workItem from="1473457300686" duration="599000" />
-      <workItem from="1474398035357" duration="399000" />
+      <workItem from="1474398035357" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="new helloworld file and new print function">
       <created>1472948898732</created>
@@ -871,11 +871,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473456970616</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="working on methods and classes">
+      <created>1474398457456</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1474398457456</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14930000" />
+    <option name="totallyTimeSpent" value="15305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -928,7 +935,8 @@
     <MESSAGE value="working with while loops and user input" />
     <MESSAGE value="working with global and local variables" />
     <MESSAGE value="going over various exceptions and errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="going over various exceptions and errors" />
+    <MESSAGE value="working on methods and classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on methods and classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1320,7 +1328,7 @@
     <entry file="file://$PROJECT_DIR$/src/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="804">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
           <folding>
             <element signature="e#396#397#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
