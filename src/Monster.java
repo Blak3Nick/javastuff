@@ -25,18 +25,26 @@ public class Monster {
             {
                 System.out.print("|" + battleBoard[i][j] + "|");
             }
+            System.out.println();
         }
+        k = 1;
+        while(k<=30)
+        { System.out.print('-'); k++;}
+        System.out.println();
     }
     public final String Tombstone = "Here lies a Dead MOnster";
 
     private int health = 500;
     private int attack = 20;
     private int movement = 2;
-    private int xPosition = 0;
-    private int yPosition = 0;
+
     private boolean alive = true;
 
     public String name = "Big MOnster";
+    public char nameChar1 = 'B';
+    public int xPosition = 0;
+    public int yPosition = 0;
+    public static int numOfMonsters = 0;
 
     public int getAttack()
     {
@@ -50,6 +58,10 @@ public class Monster {
     public int getHealth()
     {
         return health;
+    }
+    public boolean getAlive()
+    {
+        return alive;
     }
     public void setHealth(int decreaseHealth)
     {
@@ -69,11 +81,31 @@ public class Monster {
         }
 
     }
-    public Monster(int newHealth, int newAttack, int newMovement)
+    public Monster(int newHealth, int newAttack, int newMovement, String name)
     {
-        health = newHealth;
-        attack = newAttack;
-        movement = newMovement;
+        this.health = newHealth;
+        this.attack = newAttack;
+        this.movement = newMovement;
+        this.name = name;
+        int maxXBoardSpace = battleBoard.length - 1;
+        int maxYBoardSpace = battleBoard[0].length - 1;
+
+        int randNumX, randNumY;
+
+        do {
+            randNumX = (int) (Math.random() * maxXBoardSpace);
+            randNumY = (int) (Math.random() * maxYBoardSpace);
+        } while (battleBoard[randNumX][randNumY] != '*' );
+
+        this.xPosition = randNumX;
+        this.yPosition = randNumY;
+
+        this.nameChar1 = this.name.charAt(0);
+
+        battleBoard[this.yPosition][this.xPosition] = this.nameChar1;
+
+        numOfMonsters++;
+
 
     }
 //Default Constructor
