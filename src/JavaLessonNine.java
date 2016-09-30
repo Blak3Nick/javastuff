@@ -59,5 +59,11 @@ public class JavaLessonNine {
             }
             System.out.println();
         }
+
+        int[] numberCopy = Arrays.copyOf(numberArray, 5);
+
+        int [] moreNumbers = new int[100];
+        Arrays.fill(moreNumbers, 2);
+        System.out.print(moreNumbers);
     }
 }
