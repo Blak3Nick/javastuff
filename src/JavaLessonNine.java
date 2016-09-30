@@ -18,5 +18,16 @@ public class JavaLessonNine {
         {
             numberArray[i] = i;
         }
+
+        int k = 1;
+        while(k<= 41) {System.out.print('-'); k++;}
+        System.out.println();
+
+        for(int j = 0; j< numberArray.length; j++)
+        {
+            System.out.print("|" + j + " ");
+        }
+        System.out.println("|");
+
     }
 }
