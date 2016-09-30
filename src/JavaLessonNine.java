@@ -49,5 +49,15 @@ public class JavaLessonNine {
                 System.out.print("| " + multiArray[i][j] + " ");
             }
         }
+
+        for(String[] rows : multiArray)
+        {
+            for(String column : rows)
+            {
+                System.out.print("| " + column + " ");
+
+            }
+            System.out.println();
+        }
     }
 }
