@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc0a305a-d406-4e3b-9de2-e81a860f36b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LessonEleven.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LessonTen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaLessonNine.java" afterPath="$PROJECT_DIR$/src/JavaLessonNine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LessonEight.java" afterPath="$PROJECT_DIR$/src/LessonEight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LessonEleven.java" afterPath="$PROJECT_DIR$/src/LessonEleven.java" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,8 +57,8 @@
       <file leaf-file-name="LessonEleven.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LessonEleven.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="804">
+              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -797,7 +794,7 @@
       <workItem from="1475257881741" duration="2957000" />
       <workItem from="1475790768474" duration="12000" />
       <workItem from="1475971638517" duration="894000" />
-      <workItem from="1476128449770" duration="429000" />
+      <workItem from="1476128449770" duration="1470000" />
     </task>
     <task id="LOCAL-00001" summary="new helloworld file and new print function">
       <created>1472948898732</created>
@@ -981,11 +978,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475262084251</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Working with arrays in Java">
+      <created>1476128884316</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1476128884316</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23025000" />
+    <option name="totallyTimeSpent" value="24066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1424,8 +1428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LessonEleven.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="804">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
