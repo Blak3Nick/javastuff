@@ -64,6 +64,6 @@ public class JavaLessonNine {
 
         int [] moreNumbers = new int[100];
         Arrays.fill(moreNumbers, 2);
-        System.out.print(moreNumbers);
+        System.out.println(moreNumbers);
     }
 }

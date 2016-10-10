@@ -2,6 +2,8 @@
  * Created by Cyr1lfiggus1 on 9/23/2016.
  */
 
+import com.sun.deploy.util.ArrayUtil;
+
 import java.util.Arrays;
 //import org.apache.commons.lang3.ArrayUtils;
 public class LessonEight {
@@ -22,4 +24,5 @@ public class LessonEight {
 
         Monster.redrawBoard();
     }
+
 }
