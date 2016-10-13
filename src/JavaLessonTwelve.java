@@ -14,9 +14,30 @@ public class JavaLessonTwelve {
         names.add("Ahmed Banny");
         names.add("Ali Said");
 
+        names.addLast("Nathan Martin");
+        names.addFirst("John Smith");
+
+        names.add(0, "Noah Peters");
+
+        names.set(2, "Paul Newman");
+
+        names.remove(4);
+
+        names.remove("Paul Newman");
+
+        System.out.println("\nFirst Index " + names.get(0));
+
         for (String name : names ){
             System.out.println(name);
         }
+        if(names.contains("Noah Peters")) {
+            System.out.println("Noah Peters is here");
+        }
+        System.out.println("\nAli index at " + names.indexOf("Ali Said"));
+
+        System.out.println("\nHow many " + names.size());
+
+        System.out.println("\nGet without error " + names.peek());
 
     }
 
