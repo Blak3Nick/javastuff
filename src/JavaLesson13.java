@@ -12,5 +12,26 @@ public class JavaLesson13 {
         int numTwo = 2;
 
         System.out.println(randomString  + " " + havtaQuote);
+
+
+        String upperCase = "BIG";
+
+        String loweCase = "big";
+
+        if (upperCase.equalsIgnoreCase(loweCase)) {
+
+            System.out.println("Equal ignoring case");
+
+        }
+
+        String letter = "abcde";
+
+        String moreLetters = "fghijklm";
+
+        System.out.println(moreLetters.charAt(3));
+
+        System.out.println(moreLetters.contains("abc"));
+
+        System.out.println(moreLetters.contains("ghij"));
     }
 }
