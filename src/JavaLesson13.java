@@ -1,6 +1,8 @@
 /**
  * Created by Cyr1lfiggus1 on 10/17/2016.
  */
+
+import java.util.Arrays;
 public class JavaLesson13 {
 
 
@@ -33,5 +35,22 @@ public class JavaLesson13 {
         System.out.println(moreLetters.contains("abc"));
 
         System.out.println(moreLetters.contains("ghij"));
+
+        System.out.println(moreLetters.length());
+        System.out.println(moreLetters.replace("ghi", "first"));
+
+        System.out.println(moreLetters);
+
+        String[] letterArray  = letter.split("");
+
+        System.out.println(Arrays.toString(letterArray));
+
+        System.out.println(letter.substring(1,4));
+
+        //Use to create a string without too much memory
+        StringBuilder randSB = new StringBuilder("A new strinhg");
+
+        System.out.println(randSB.append("again"));
+
     }
 }
