@@ -15,6 +15,20 @@ public class JavaLessonFourteen {
         System.out.println(morris.getName());
         System.out.println(morris.favFood);
         System.out.println(morris.favToy);
+
+        Animal tabby = new Cats("Tabby", "Salmon", "Ball");
+
+        acceptAnimal(tabby);
+
+
+
+    }
+    public static void acceptAnimal(Animal randAnimal){
+
+        System.out.println(randAnimal.getName());
+        System.out.println(randAnimal.favFood);
+
+        randAnimal.walkAround();
     }
 
 }

@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc0a305a-d406-4e3b-9de2-e81a860f36b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Cats.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/JavaLessonFourteen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaLessonFourteen.java" afterPath="$PROJECT_DIR$/src/JavaLessonFourteen.java" />
     </list>
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,8 +131,8 @@
       <file leaf-file-name="JavaLessonFourteen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JavaLessonFourteen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+            <state relative-caret-position="660">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -881,7 +879,7 @@
       <workItem from="1476128449770" duration="1489000" />
       <workItem from="1476399234862" duration="1394000" />
       <workItem from="1476722779305" duration="1314000" />
-      <workItem from="1477245838330" duration="1161000" />
+      <workItem from="1477245838330" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="new helloworld file and new print function">
       <created>1472948898732</created>
@@ -1114,11 +1112,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476724079363</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Working with objects">
+      <created>1477247012311</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1477247012311</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27954000" />
+    <option name="totallyTimeSpent" value="28412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1177,7 +1182,8 @@
     <MESSAGE value="Working with arrays in Java" />
     <MESSAGE value="Working with LinkedLIsts  in Java" />
     <MESSAGE value="Working with Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with Strings" />
+    <MESSAGE value="Working with objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with objects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1564,8 +1570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaLessonFourteen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        <state relative-caret-position="660">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
