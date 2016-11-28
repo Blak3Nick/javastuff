@@ -7,6 +7,9 @@ public class LessonFifteen {
 
         System.out.println("The car's max speed "+ car.getSpeed());
         System.out.println("The car's wheels are "+ car.getWheel());
+
+        car.setCarStrength(10);
+        System.out.println("Strength: " + car.getCarStrength());
     }
 
 
